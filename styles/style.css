@@ -1,0 +1,186 @@
+table,
+td {
+    border: 1px solid #333;
+}
+
+input[type=radio][value="radio_filter_product"]~.product {
+    display: none;
+}
+
+input[type=radio][value="radio_filter_product"]:checked~.product{
+    display: block;
+}
+
+input[type=radio][value="radio_filter_employee"]~.employee {
+    display: none;
+}
+
+input[type=radio][value="radio_filter_employee"]:checked~.employee {
+    display: block;
+}
+
+input[type=radio][value="radio_filter_car"]~.car {
+    display: none;
+}
+
+input[type=radio][value="radio_filter_car"]:checked~.car{
+    display: block;
+}
+
+input[type=radio][value="radio_filter_client"]~.client {
+    display: none;
+}
+
+input[type=radio][value="radio_filter_client"]:checked~.client{
+    display: block;
+}
+
+input[type=radio][value="radio_filter_delivery"]~.delivery {
+    display: none;
+}
+
+input[type=radio][value="radio_filter_delivery"]:checked~.delivery{
+    display: block;
+}
+
+input[type=radio][value="radio_filter_orders"]~.orders {
+    display: none;
+}
+
+input[type=radio][value="radio_filter_orders"]:checked~.orders{
+    display: block;
+}
+
+input[type=radio][value="radio_filter_storehouse"]~.storehouse {
+    display: none;
+}
+
+input[type=radio][value="radio_filter_storehouse"]:checked~.storehouse{
+    display: block;
+}
+
+
+
+input[type=radio][value="radio_edit_car"]~.table_car {
+    display: none;
+}
+
+input[type=radio][value="radio_edit_car"]:checked~.table_car{
+    display: block;
+}
+
+input[type=radio][value="radio_edit_client"]~.table_client {
+    display: none;
+}
+
+input[type=radio][value="radio_edit_client"]:checked~.table_client{
+    display: block;
+}
+
+input[type=radio][value="radio_edit_delivery"]~.table_delivery {
+    display: none;
+}
+
+input[type=radio][value="radio_edit_delivery"]:checked~.table_delivery{
+    display: block;
+}
+
+input[type=radio][value="radio_edit_employee"]~.table_employee {
+    display: none;
+}
+
+input[type=radio][value="radio_edit_employee"]:checked~.table_employee{
+    display: block;
+}
+
+input[type=radio][value="radio_edit_order_list"]~.table_order_list {
+    display: none;
+}
+
+input[type=radio][value="radio_edit_order_list"]:checked~.table_order_list{
+    display: block;
+}
+
+input[type=radio][value="radio_edit_orders"]~.table_orders {
+    display: none;
+}
+
+input[type=radio][value="radio_edit_orders"]:checked~.table_orders{
+    display: block;
+}
+
+input[type=radio][value="radio_edit_product"]~.table_product {
+    display: none;
+}
+
+input[type=radio][value="radio_edit_product"]:checked~.table_product{
+    display: block;
+}
+
+input[type=radio][value="radio_edit_product_type"]~.table_product_type {
+    display: none;
+}
+
+input[type=radio][value="radio_edit_product_type"]:checked~.table_product_type{
+    display: block;
+}
+
+input[type=radio][value="radio_edit_status"]~.table_status {
+    display: none;
+}
+
+input[type=radio][value="radio_edit_status"]:checked~.table_status{
+    display: block;
+}
+
+input[type=radio][value="radio_edit_storehouse"]~.table_storehouse {
+    display: none;
+}
+
+input[type=radio][value="radio_edit_storehouse"]:checked~.table_storehouse{
+    display: block;
+}
+
+
+.items_wrapper{
+    display: flex;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+}
+
+.item {
+    border: 3px rgb(48, 48, 48) solid;
+    padding: 5px;
+    margin: 10px;
+}
+
+.item:hover{
+    border: 2px rgb(148, 148, 148) solid;
+}
+
+.main_wrapper{
+    display: flex;
+    justify-content: space-between;
+}
+
+.items_cart{
+    display: flex;
+    justify-content: space-around;
+}
+
+.cart{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 5px;
+    border: 3px rgb(48, 48, 48) solid;
+}
+
+.user{
+    display: flex;
+    justify-content: end;
+}
+
+.user a {
+    margin: 5px;
+}
